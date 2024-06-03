@@ -31,9 +31,10 @@ form input, form button{
 }
 form button
 {
-    background-color:  #A890FE;
+    background-color:  #662D8C;
     color: white;
     margin-left:1rem ;
+    cursor: pointer;
 }
 .todo-container{
     display: grid;
@@ -54,6 +55,44 @@ form button
 
 .todo{
     display: grid;
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: 1fr auto ;
+    margin: 0.5rem;
+    background: #fff;
+    color: #222;
+    gap: 10px;
+    align-items: center;
 }
+.todo li{
+    padding: 0.5rem;
+    /* width: 50%;
+    overflow: hidden; */
+
+
+}
+.todo .todo-btn-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.todo button{
+    cursor: pointer;
+    height: 100%;
+    border: 0px;
+    border-radius: 0px;
+
+
+}
+.trash-btn{
+    background:#662D8C;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1rem;
+
+}
+.complete-btn{
+background: #662D8C;
+color: #fff;
+padding: 1rem;
+font-size: 1rem;
+}
+
 
