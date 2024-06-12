@@ -1,79 +1,90 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-body{
-    font-family:  "Poppins", sans-serif;
-    background: linear-gradient(100deg,#662D8C , #ED1E79);
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(100deg, #662D8C, #ED1E79);
     min-height: 100vh;
     color: #fff;
 }
-header
-{
+
+header {
     font-size: 2rem;
     text-align: center;
     padding: 3rem 8rem;
 }
-form{
+
+form {
     display: grid;
     justify-content: center;
     align-items: center;
     min-height: 20vh;
 }
-form input, form button{
+
+form input,
+form button {
     padding: 0.5rem;
     font-size: 2rem;
     border: 0px;
-    background:#fff;
+    background: #fff;
     border-radius: 5px;
 }
-form button
-{
-    background-color:  #662D8C;
+
+form button {
+    background-color: #662D8C;
     color: white;
-    margin-left:1rem ;
+    margin-left: 1rem;
     cursor: pointer;
 }
-.todo-container{
+
+.todo-container {
     display: grid;
     justify-content: center;
     align-items: center;
+    margin-bottom: 8rem;
 
 }
-.todo-list{
+
+.todo-list {
     list-style: none;
-    min-width:  30vw;
+    min-width: 30vw;
 }
-@media  screen and (max-width:600px){
-    .todo-list{
+
+@media screen and (max-width:600px) {
+    .todo-list {
         min-width: 80vw;
     }
-    
+
 }
 
-.todo{
+.todo {
     display: grid;
-    grid-template-columns: 1fr auto ;
+    grid-template-columns: 1fr auto;
     margin: 0.5rem;
     background: #fff;
     color: #222;
     gap: 10px;
-    align-items: center;
+   
 }
-.todo li{
+
+.todo li {
     padding: 0.5rem;
     /* width: 50%;
     overflow: hidden; */
 
 
 }
-.todo .todo-btn-container{
+
+.todo .todo-btn-container {
     display: grid;
     grid-template-columns: auto auto;
 }
-.todo button{
+
+.todo button {
     cursor: pointer;
     height: 100%;
     border: 0px;
@@ -81,18 +92,61 @@ form button
 
 
 }
-.trash-btn{
-    background:#662D8C;
+
+.trash-btn {
+    background: #662D8C;
     color: #fff;
     padding: 1rem;
     font-size: 1rem;
 
 }
-.complete-btn{
-background: #662D8C;
-color: #fff;
-padding: 1rem;
-font-size: 1rem;
+
+.complete-btn {
+    background: #662D8C;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1rem;
 }
 
+.mark-complete {
+    text-decoration: line-through;
+}
 
+footer {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    border-top: 2px solid white;
+    padding: 2rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background:#a42cd3;
+
+
+}
+
+footer div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+@media screen and (min-width:900px) {
+    footer div {
+        width: 50vw;
+
+    }
+}
+footer button {
+    background: #662D8C;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 0;
+}
+.completed-filter {
+    background: #2e0035;
+}
+.all-filter {
+    background: #41024b;
+}
