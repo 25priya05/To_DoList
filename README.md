@@ -2,10 +2,6 @@
 
 [Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/25priya05/To_DoList)
 
-
-
-# To-Do List Application
-
 Welcome to the To-Do List application! This project is a simple and intuitive tool to help you manage your tasks efficiently. It's built using HTML, CSS, and JavaScript and is hosted on GitHub Pages.
 
 ## Live Demo
@@ -25,23 +21,10 @@ You can check out the live demo of the application [here](https://25priya05.gith
 - **CSS:** Styling and layout of the application.
 - **JavaScript:** Functionality and interactivity of the application.
 
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
 You need a web browser to view and use the application.
-
-### Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/25priya05/To_DoList.git
-    ```
-
-2. Open the `index.html` file in your preferred web browser.
 
 ## Usage
 
@@ -54,14 +37,6 @@ You need a web browser to view and use the application.
 - `index.html`: The main HTML file that contains the structure of the application.
 - `style.css`: The CSS file that contains the styles for the application.
 - `script.js`: The JavaScript file that contains the logic for adding, deleting, and marking tasks as complete.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
